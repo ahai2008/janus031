@@ -3,7 +3,7 @@ port: 8182
 scriptEvaluationTimeout: 180000
 channelizer: org.apache.tinkerpop.gremlin.server.channel.HttpChannelizer
 graphs: {
-  graph: janusgraph-cql-es-server.properties
+  graph: janusgraph-cql-es.properties
 }
 scriptEngines: {
   gremlin-groovy: {
